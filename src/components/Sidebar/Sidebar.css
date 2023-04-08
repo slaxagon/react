@@ -1,0 +1,38 @@
+.sidebar {
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background: white;
+    border-radius: 25px;
+
+  }
+  .sidebar header {
+    font-size: 17px;
+    color: black;
+    line-height: 40px;
+    text-align: center;
+    background: white;
+    user-select: none;
+  }
+  .sidebar ul{
+    list-style-type: none;
+  }
+  .sidebar ul a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 17px;
+    color: black;
+    padding-left: 0px;
+    border-top: 1px solid #d6d6f5;
+    text-decoration: none;
+  }
+
+  .sidebar ul i{
+    margin-right: 8px;
+  }
+
+  ul li:hover a{
+    padding-left: 10px;
+  }

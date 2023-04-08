@@ -1,0 +1,27 @@
+.com-4-flex-item{
+    background: white;
+    padding: 20px;
+    width: 750px;
+    min-height: 300px;
+    color: black;
+    margin-right: 40px;
+    margin-bottom: 30px;
+    border-radius: 25px;
+  }
+  
+p.com-4-firstField{
+    color: #2929a3;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+.com-4-divForText{
+    max-width: 600px;
+    display: block;
+  }
+  
+.com-4-picClass2{
+    width: 500px;
+    height: 250px; 
+  }
+  

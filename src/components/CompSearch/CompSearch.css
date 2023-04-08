@@ -1,0 +1,26 @@
+ .moja{
+    border: 0;
+    margin-left: 30px;
+    border-radius: 25px;
+  }
+
+
+  img{
+    float: right;
+    margin-right: 30px;
+    margin-top: 2px;
+  }
+
+  img.picClass{
+        width: 40px;
+        height: 40px;
+        display: inline-block;
+  }
+
+  i.myclass2{
+    display: inline-block;
+    margin-right: 30px;
+    margin-top: 7px;
+    color: gray;
+  }
+  

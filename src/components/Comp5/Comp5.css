@@ -1,0 +1,35 @@
+.com-5-flex-item {
+    background: white;
+    padding: 20px;
+    width: 200px;
+    min-height: 150px;
+    color: black;
+    margin-right: 40px;
+    margin-bottom: 30px;
+    border-radius: 25px;
+  }
+  
+.com-5-iclass{
+    color: #cc3300;
+    padding: 2px;
+    background-color: #ff9f80;
+  }
+
+.com-5-parentDiv {
+    display: block;
+    height: 70px;
+    width: 100%;
+}
+
+.com-5-icon1 {
+    float: left;
+}
+
+.com-5-icon2 {
+    margin-left: 10px;
+    float: right;
+}
+
+.com-5-span{
+    color: red;
+}
