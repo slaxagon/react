@@ -1,10 +1,13 @@
-import React from 'react';
+import React from "react";
 
 function About() {
   return (
-    <div>
-      <h1>About Us</h1>
-      <p>This is the About Us page content.</p>
+    <div class="myContainer">
+      <div class="content">
+        <ul class="flex-container">
+          <h1>Strona o Nas</h1>
+        </ul>
+      </div>
     </div>
   );
 }

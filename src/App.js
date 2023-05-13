@@ -1,56 +1,37 @@
 import "./App.css";
-import Sidebar from "./components/Sidebar/Sidebar";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import SideBar from "./components/Sidebar/Sidebar";
 import CompSearch from "./components/CompSearch/CompSearch";
-import ChangeBg from "./components/ChangeBg/ChangeBg";
-import ChangeFontSize from "./components/ChangeFontSize/ChangeFontSize";
-import Comp1 from "./components/Comp1/Comp1";
-import Comp2 from "./components/Comp2/Comp2";
-import Comp3 from "./components/Comp3/Comp3";
-import Comp4 from "./components/Comp4/Comp4";
-import Comp5 from "./components/Comp5/Comp5";
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import Home from './components/home/home';
 import About from './components/About/About';
-import Services from './components/Service/Service';
+import Service from './components/Service/Service';
 import Contact from './components/Contact/Contact';
-import Product from './components/Products/Products';
+import Products from './components/Products/Products';
+
 
 function App() {
   return (
-    <Router>
-      <div className="mainContainer">
+    <BrowserRouter>
+      <div class="myContainer">
         <div className="sidebar">
-          <Sidebar/>
+          <SideBar />
         </div>
-        <div className="header">
+        <div class="header">
           <CompSearch />
         </div>
-        <div className="content">
-          <ul className="flex-container">
-            <Comp1 />
-            <Comp2 />
-            <Comp3 />
-            <Comp4 />
-            <Comp5 />
-          </ul>
-          <ChangeBg/>
-          <ChangeFontSize/>
-        </div>
-        
         <Routes>
-          <Route path="/" exact element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/services" element={<Services />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/product" element={<Product />} />
+          <Route index element={<Home />} />
+          <Route path="about" element={<About />} />
+          <Route path="products" element={<Products />} />
+          <Route path="service" element={<Service />} />
+          <Route path="contact" element={<Contact />} />
         </Routes>
       </div>
-    </Router>
-  )
+    </BrowserRouter>
+
+  );
 }
-
 export default App;
-
 /*
 import logo from './logo.svg';
 import './App.css';

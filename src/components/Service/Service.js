@@ -1,14 +1,13 @@
-import React from 'react';
+import React from "react";
 
 function Service() {
   return (
-    <div>
-      <h1>Our Services</h1>
-      <ul>
-        <li>Service 1</li>
-        <li>Service 2</li>
-        <li>Service 3</li>
-      </ul>
+    <div class="myContainer">
+      <div class="content">
+        <ul class="flex-container">
+          <h1>Strona o serwisie</h1>
+        </ul>
+      </div>
     </div>
   );
 }
