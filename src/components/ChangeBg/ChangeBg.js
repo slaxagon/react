@@ -13,7 +13,7 @@ function ChangeBg() {
   const fontColor2 = isBlackBg ? "#ffffff" : "#000000";
 
   const styles = `
-    .mainContainer{
+    .myContainer{
       background-color: ${backgroundColor} !important;
       color: ${fontColor} !important;
     }
